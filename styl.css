@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato';
+}
+.naglowek{
+    text-align: center;
+    height: 150px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150%
+}
+.naglowek > video{
+    height: 150px;
+    
+    
+}
+.image > img:hover{
+    scale: 120%;
+}
+.pasek{
+    font-size: 150%;
+    background-color: rgb(178, 182, 185);
+    height: 50px;
+    display: flex;
+    justify-content: end;
+}
+.option > a{
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.pasek > div{
+    margin-left: 40px ;
+    height: 100%;
+
+}
+.zdjecia{
+    text-align: center;
+}
+image:hover{
+    transform: scale(1.2);
+}
+img{
+    height: 300px;
+    margin-top: 100px;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+.tekst1, .tekst2, .tekst3{
+    font-size: 30px;
+    width: 50%;
+    
+}
+#div1, #div2, #div3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.wszystko{
+    padding: 0 200px;
+}
+#div2 > img{
+    margin-right: 140px;
+    margin-top: 100px;
+    height: 500px;
+
+}
+#div1 > img{
+    height: 500px;
+}
+.stopka{
+    height: 100px;
+    background-color: gray;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
