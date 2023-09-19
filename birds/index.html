@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styl.css">
+</head>
+<body>
+    <header>
+        <section class="naglowek">
+            <h1>Galeria siatkowa</h1>
+        </section>
+    </header>
+    <main>
+        <section class="zdjecia">
+            <img src="bird1.jpg" alt="ptak1" class="ptak1" id="zdjecie1" onClick="zniknij">
+            <img src="bird2.jpg" alt="ptak2" class="ptak2" id="zdjecie2" onClick="zniknij">
+            <img src="bird3.jpg" alt="ptak3" class="ptak3" id="zdjecie3" onClick="zniknij">
+            <img src="bird4.jpg" alt="ptak4" class="ptak4" id="zdjecie4" onClick="zniknij">
+            <img src="bird5.jpg" alt="ptak5" class="ptak5" id="zdjecie5" onClick="zniknij">
+            <img src="bird6.jpg" alt="ptak6" class="ptak6" id="zdjecie6" onClick="zniknij">
+        </section>
+        <script type="text/javascript">
+            function zniknij(){
+                document.getElementById('zdjecie${f}').className = "funkcja";
+            }
+        </script>
+    </main>
+    <footer>
+        <section class="stopka">
+            <h1>Galeria siatkowa</h1>
+        </section>
+    </footer>
+</body>
+</html>

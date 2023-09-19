@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.naglowek, .stopka{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: coral;
+}
+.zdjecia{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: calc(100vh - 200px);
+}
+img{
+    height: 110px;
+    border-radius: 50%;
+}
+.ptak2, .ptak4, .ptak6{
+    scale: 150%;
+}
+.ptak1:hover, .ptak3:hover, .ptak5:hover{
+    scale: 150%;
+}
+
